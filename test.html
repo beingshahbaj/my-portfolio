@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Animated Webpage</title>
+</head>
+<style>
+ body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2ecc71;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Ensure the animation covers the whole viewport */
+}
+
+.animation-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    animation: fadeInUp 1s forwards;
+}
+
+/* Add this to styles.css */
+
+.welcome-animation {
+    animation: additionalAnimations 1s ease-in-out forwards;
+    transform: scale(1.2);
+    color: #3498db; /* Change to your desired color */
+}
+
+@keyframes additionalAnimations {
+    /* Define your additional animations here */
+    /* For example: transform, opacity, color changes, etc. */
+    from {
+        transform: scale(1.2);
+        color: #3498db; /* Change to your desired color */
+    }
+    to {
+        transform: scale(1);
+        color: #2ecc71; /* Change to your desired color */
+    }
+}
+
+
+</style>
+<body>
+    <div class="animation-container">
+        <h1>Welcome to My Webpage</h1>
+        <!-- Add your webpage content here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+<script>
+ document.addEventListener("DOMContentLoaded", function () {
+    // Trigger your initial animation logic here
+    animateWelcome(); 
+
+    // You can add more JavaScript functions for additional interactions/animations
+    // For example: changeBackgroundColor(), slideInContent(), etc.
+});
+
+function animateWelcome() {
+    // Get the animation container
+    const animationContainer = document.querySelector('.animation-container');
+
+    // Add a class to start additional animations
+    animationContainer.classList.add('welcome-animation');
+
+    // You can add more animation classes or manipulate elements as needed
+}
+
+
+</script>
+</html>
