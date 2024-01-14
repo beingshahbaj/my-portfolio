@@ -623,7 +623,7 @@ box-sizing:content-box;
 }
 
 .wel-text{
- 
+    letter-spacing: 4px;
   position: absolute;
   display: none;
   text-transform: uppercase;
