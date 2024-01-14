@@ -61,7 +61,8 @@ header {
 }
 nav {
   background-color: #000000d8;
-  padding-inline: 40px;
+  padding-inline: 108px;
+  padding-left: 50px;
   align-items: center;
   height: 80px;
   width: 100vw;
@@ -542,7 +543,7 @@ main section {
   word-wrap: 25px;
   letter-spacing: px;
   font-weight: 400;
-  color: #fc3700e6;
+  color: #212121e6;
   font-size: 100px;
   bottom: 18px;
   /* animation: scroll 25s linear infinite; */
@@ -574,7 +575,7 @@ main section {
   font-weight: 600;
   color: black;
   padding: 10px;
-  background-color: #ef4d1c;
+  background-color: #e2e2e2;
   border-radius: 10px;
   /* background-color: #000000; */
   /* width: 10%; */
