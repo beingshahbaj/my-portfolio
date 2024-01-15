@@ -25,6 +25,18 @@ gsap.to(".loding", {
   borderRadius: "0",
 });
 
+
+gsap.to(".space img", {
+  ease: "easeInOut",
+  delay: 4.5,
+  stagger: 1,
+  bottom: 0,
+});
+
+
+
+
+
 var tl = gsap
   .timeline()
 
@@ -60,3 +72,5 @@ tl.from(chars, {
 document.getElementById("animate").onclick = function () {
   tl.restart();
 };
+
+
