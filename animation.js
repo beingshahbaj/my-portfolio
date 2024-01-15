@@ -28,9 +28,17 @@ gsap.to(".loding", {
 
 gsap.to(".space .space-2", {
   ease: "easeInOut",
-  delay: 4.5,
+  delay: 5.5,
   stagger: 3,
- top:"28%"
+  left: "0%",
+  top: "28%",
+});
+
+gsap.to(".space .space-3", {
+  ease: "easeInOut",
+  delay: 5.5,
+  stagger: 3,
+   right:"0"
 });
 
 
