@@ -1,0 +1,107 @@
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+
+    @font-face {
+  font-family: media;
+  src: url(assets/fonts/mediasansextended-bold-TRIAL-BF63c7546bb2aa0.otf);
+}
+  /* Styles for screens that are at least 768 pixels wide */
+  .nav-left img {
+    left: 15px;
+    position: absolute;
+    top: 18px;
+    width: 167px;
+  }
+  nav {
+    padding-inline: 17vw;
+  }
+  .back-text h1 {
+    color: #ffffff;
+    text-shadow: 0px 16px 12px rgba(3, 3, 3, 0.68);
+    text-align: center;
+    z-index: 2;
+    line-height: 1.5;
+    justify-content: center;
+    font-family: Media;
+    font-size: 7vw;
+    font-weight: 700;
+    transition: 0.2s ease-in-out;
+  }
+
+  .space-2 {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 20%;
+    position: absolute;
+    left: -100%;
+    top: 0%;
+    z-index: 100;
+    background-color: #cb2900;
+    z-index: 101;
+  }
+  .space-3 {
+    border-radius: 0px;
+    z-index: 99;
+    position: absolute;
+    background-color: #494949;
+    width: 60%;
+    height: 100%;
+    right: -100%;
+  }
+  .profile img {
+    left: 0%;
+    top: 22px;
+    position: absolute;
+    z-index: 100 !important;
+    object-position: top;
+    width: 120%;
+    height: 117%;
+  }
+
+  .space-4 {
+    z-index: 1000;
+    background-color: #000000ca;
+
+    bottom: 10%;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 42%;
+  }
+
+  .heading {
+    display: none;
+  }
+  .right-first {
+    display: none;
+  }
+
+  .text-scroll {
+    color: white !important;
+    display: flex !important;
+  }
+  .text-scroll h1 {
+    font-size: 8vw;
+  }
+  .right-second {
+    color: white !important;
+    padding: 68px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-between;
+  
+}
+.social{
+    color: white;
+}
+.social a img{
+    background-color: #ffffff;
+    padding: 5px;
+    width: 47px;
+    border-radius: 5px;
+}
+}

@@ -25,7 +25,6 @@ gsap.to(".loding", {
   borderRadius: "0",
 });
 
-
 gsap.to(".space .space-2", {
   ease: "easeInOut",
   delay: 5.5,
@@ -38,47 +37,30 @@ gsap.to(".space .space-3", {
   ease: "easeInOut",
   delay: 5.5,
   stagger: 3,
-   right:"0"
+  right: "0",
 });
-
-
-
-
 
 var tl = gsap
   .timeline()
 
-  .to(".green", { delay:3.5, duration: 2, top:"0", ease: "bounce" });
+  .to(".green", { delay: 3.5, duration: 2, top: "0", ease: "bounce" });
 
-
-
-
-
-
-gsap.registerPlugin(SplitText);
-
-var tl = gsap.timeline(),
-  mySplitText = new SplitText("#quote", { type: "words,chars" }),
-  chars = mySplitText.chars; //an array of all the divs that wrap each character
-
-gsap.set("#quote", { perspective: 400 });
-
-console.log(chars);
-
-tl.from(chars, {
-    delay:4,
-  duration: 0.8,
-  opacity: 0,
-  scale: 0,
-  y: 80,
-  rotationX: 180,
-  transformOrigin: "0% 50% -50",
-  ease: "back",
-  stagger: 0.01,
+const animation = gsap.to(".space .space-2", {
+  ease: "easeInOut",
+  delay: 5.5,
+  stagger: 3,
+  left: "0%",
+  top: "12%",
 });
 
-document.getElementById("animate").onclick = function () {
-  tl.restart();
-};
+// Function to play or reverse animation based on screen width
+function handleMediaQuery() {
+  if (window.innerWidth <= 1024) {
+    animation.play();
+  } else {
+    animation.reverse();
+  }
+}
 
-
+// Initial call to set the animation state based on the screen width
+handleMediaQuery();

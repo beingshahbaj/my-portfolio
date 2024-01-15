@@ -72,6 +72,10 @@ li {
   height: 100%;
   right: -100%;
 }
+
+.space-4{
+  display: none;
+}
 .space img {
   position: absolute;
   bottom: -100%;
@@ -108,6 +112,7 @@ nav {
   top: 20px;
   width: 200px;
 }
+
 
 #name {
   transition: 0.3s ease-in;
@@ -191,6 +196,9 @@ hr {
   height: 117%;
 }
 
+.text-scroll{
+  display: none !important;
+}
 .profile {
   overflow: hidden;
   height: 100vh;
@@ -199,6 +207,7 @@ hr {
   align-items: end;
   display: flex;
 }
+
 
 .pro-right {
   padding: 100px 0;
