@@ -57,13 +57,14 @@ li {
   width: 100vw;
   height: 50%;
   position: absolute;
-  top: 27%;
+   bottom: -100%;
+
  
   background-color: #cb2900;
 }
 .space img{
   position: absolute;
-bottom: -100%;
+  bottom: -100%;
   height: 100%;
   width: 100%;
 }

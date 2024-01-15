@@ -26,11 +26,11 @@ gsap.to(".loding", {
 });
 
 
-gsap.to(".space img", {
+gsap.to(".space .space-2", {
   ease: "easeInOut",
   delay: 4.5,
-  stagger: 1,
-  bottom: 0,
+  stagger: 3,
+ top:"28%"
 });
 
 
