@@ -94,7 +94,7 @@ header {
 nav {
   position: relative;
   /* background-color: #000000d8; */
-  padding-inline: 400px;
+  padding-inline: 40vw;
   padding-left: 50px;
   align-items: center;
   height: 80px;
@@ -121,6 +121,8 @@ nav {
 }
 
 .nav-right {
+  padding: 24px;
+  background: #494949;
   gap: 30px;
 }
 
@@ -149,7 +151,8 @@ ul {
 }
 
 .back-text h1 {
-  text-shadow: 0px 16px 12px rgb(0 0 0 / 79%);
+  color: #000000;
+  text-shadow: 0px 16px 12px rgba(3, 3, 3, 0.68);
   text-align: center;
   z-index: 2;
   line-height: 1.5;
@@ -189,6 +192,7 @@ hr {
 }
 
 .profile {
+  overflow: hidden;
   height: 100vh;
   width: 40%;
   justify-content: center;
@@ -208,10 +212,11 @@ hr {
 }
 
 .contect-btn {
+  padding-bottom: 33px;
   gap: 30px;
-  justify-content: center;
+  justify-content: flex-start;
   display: flex;
-  width: 100%;
+  width: 95%;
 }
 
 .location {
