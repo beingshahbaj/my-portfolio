@@ -53,6 +53,14 @@ li {
   height: 100vh;
 }
 
+.space-2{
+  width: 100vw;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #100f0f;
+}
 .space img{
   position: absolute;
 bottom: -100%;
