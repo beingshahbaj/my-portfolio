@@ -156,8 +156,12 @@ hr{
 }
 
 .social a img{
-  width: 40px;
- 
+  width: 27px;
+ transition: .3s ease;
+}
+
+.social a img:hover{
+  transform: scale(1.3);
 }
 .profile img {
       z-index: 999;
