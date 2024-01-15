@@ -55,11 +55,11 @@ li {
 
 .space-2{
   width: 100vw;
-  height: 50%;
+  height: 25%;
   position: absolute;
   top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #100f0f;
+ 
+  background-color: #cb2900;
 }
 .space img{
   position: absolute;
